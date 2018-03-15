@@ -1,0 +1,50 @@
+{% extends "snorna/base.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% load staticfiles %}
+{% block content %}
+    <div class="bs-docs-section">
+        <h2 class="page-header"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Download snoRNA expression matrix</h2>
+        <div class="panel panel-primary" style="padding: 20px">
+            <div class="panel-collapse collapse in" id="collapseZero" role="tabpanel" aria-labelledby="headingZero">
+                <div class="panel-body">
+                    <table class="table table-hover table-bordered">
+                        <tbody>
+<tr><th>Adrenocortical carcinoma (ACC)</th><td><a href = "{% static 'download/type.ACC.expression.matrix' %}">TCGA-ACC</a></td></tr>
+<tr><th>Bladder Urothelial Carcinoma (BLCA)</th><td><a href = "{% static 'download/type.BLCA.expression.matrix' %}">TCGA-BLCA</a></td></tr>
+<tr><th>Breast invasive carcinoma (BRCA)</th><td><a href = "{% static 'download/type.BRCA.expression.matrix' %}">TCGA-BRCA</a></td></tr>
+<tr><th>Cervical squamous cell carcinoma and endocervical adenocarcinoma (CESC)</th><td><a href = "{% static 'download/type.CESC.expression.matrix' %}">TCGA-CESC</a></td></tr>
+<tr><th>Cholangiocarcinoma (CHOL)</th><td><a href = "{% static 'download/type.CHOL.expression.matrix' %}">TCGA-CHOL</a></td></tr>
+<tr><th>Colon adenocarcinoma (COAD)</th><td><a href = "{% static 'download/type.COAD.expression.matrix' %}">TCGA-COAD</a></td></tr>
+<tr><th>Lymphoid Neoplasm Diffuse Large B-cell Lymphoma (DLBC)</th><td><a href = "{% static 'download/type.DLBC.expression.matrix' %}">TCGA-DLBC</a></td></tr>
+<tr><th>Esophageal carcinoma (ESCA)</th><td><a href = "{% static 'download/type.ESCA.expression.matrix' %}">TCGA-ESCA</a></td></tr>
+<tr><th>Head and Neck squamous cell carcinoma (HNSC)</th><td><a href = "{% static 'download/type.HNSC.expression.matrix' %}">TCGA-HNSC</a></td></tr>
+<tr><th>Kidney Chromophobe (KICH)</th><td><a href = "{% static 'download/type.KICH.expression.matrix' %}">TCGA-KICH</a></td></tr>
+<tr><th>Kidney renal clear cell carcinoma (KIRC)</th><td><a href = "{% static 'download/type.KIRC.expression.matrix' %}">TCGA-KIRC</a></td></tr>
+<tr><th>Kidney renal papillary cell carcinoma (KIRP)</th><td><a href = "{% static 'download/type.KIRP.expression.matrix' %}">TCGA-KIRP</a></td></tr>
+<tr><th>Brain lower grade glioma (LGG)</th><td><a href = "{% static 'download/type.LGG.expression.matrix' %}">TCGA-LGG</a></td></tr>
+<tr><th>Liver hepatocellular carcinoma (LIHC)</th><td><a href = "{% static 'download/type.LIHC.expression.matrix' %}">TCGA-LIHC</a></td></tr>
+<tr><th>Lung adenocarcinoma (LUAD)</th><td><a href = "{% static 'download/type.LUAD.expression.matrix' %}">TCGA-LUAD</a></td></tr>
+<tr><th>Lung squamous cell carcinoma (LUSC)</th><td><a href = "{% static 'download/type.LUSC.expression.matrix' %}">TCGA-LUSC</a></td></tr>
+<tr><th>Mesothelioma (MESO)</th><td><a href = "{% static 'download/type.MESO.expression.matrix' %}">TCGA-MESO</a></td></tr>
+<tr><th>Ovarian serous cystadenocarcinoma (OV)</th><td><a href = "{% static 'download/type.OV.expression.matrix' %}">TCGA-OV</a></td></tr>
+<tr><th>Pancreatic adenocarcinoma (PAAD)</th><td><a href = "{% static 'download/type.PAAD.expression.matrix' %}">TCGA-PAAD</a></td></tr>
+<tr><th>Pheochromocytoma and Paraganglioma (PCPG)</th><td><a href = "{% static 'download/type.PCPG.expression.matrix' %}">TCGA-PCPG</a></td></tr>
+<tr><th>Prostate adenocarcinoma (PRAD)</th><td><a href = "{% static 'download/type.PRAD.expression.matrix' %}">TCGA-PRAD</a></td></tr>
+<tr><th>Rectum adenocarcinoma (READ)</th><td><a href = "{% static 'download/type.READ.expression.matrix' %}">TCGA-READ</a></td></tr>
+<tr><th>Sarcoma (SARC)</th><td><a href = "{% static 'download/type.SARC.expression.matrix' %}">TCGA-SARC</a></td></tr>
+<tr><th>Skin Cutaneous Melanoma (SKCM)</th><td><a href = "{% static 'download/type.SKCM.expression.matrix' %}">TCGA-SKCM</a></td></tr>
+<tr><th>Stomach adenocarcinoma (STAD)</th><td><a href = "{% static 'download/type.STAD.expression.matrix' %}">TCGA-STAD</a></td></tr>
+<tr><th>Testicular Germ Cell Tumors (TGCT)</th><td><a href = "{% static 'download/type.TGCT.expression.matrix' %}">TCGA-TGCT</a></td></tr>
+<tr><th>Thyroid carcinoma (THCA)</th><td><a href = "{% static 'download/type.THCA.expression.matrix' %}">TCGA-THCA</a></td></tr>
+<tr><th>Thymoma (THYM)</th><td><a href = "{% static 'download/type.THYM.expression.matrix' %}">TCGA-THYM</a></td></tr>
+<tr><th>Uterine Corpus Endometrial Carcinoma (UCEC)</th><td><a href = "{% static 'download/type.UCEC.expression.matrix' %}">TCGA-UCEC</a></td></tr>
+<tr><th>Uterine Carcinosarcoma (UCS)</th><td><a href = "{% static 'download/type.UCS.expression.matrix' %}">TCGA-UCS</a></td></tr>
+<tr><th>Uveal Melanoma (UVM)</th><td><a href = "{% static 'download/type.UVM.expression.matrix' %}">TCGA-UVM</a></td></tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

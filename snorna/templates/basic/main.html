@@ -1,0 +1,9 @@
+{% extends "snorna/base.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% load staticfiles %}
+{% block content %}
+    {% include 'basic/query.html' %}
+
+    {% include 'basic/content.html' %}
+
+{% endblock %}
