@@ -1,7 +1,8 @@
 # SNORic
 
 > [A Pan-cancer Analysis of the Expression and Clinical Relevance of Small Nucleolar RNAs in Human Cancer.](http://www.cell.com/cell-reports/fulltext/S2211-1247\(17\)31533-4)
-Jing Gong <sup>†</sup>, Yajuan Li <sup>†</sup>, Chun-Jie Liu <sup>†</sup>, Yu Xiang <sup>†</sup>, Chunlai Li, Youqiong Ye, Zhao Zhang, David H. Hawke, Peter K. Park, Lixia Diao, John A. Putkey, Liuqing Yang, An-Yuan Guo <sup>\*</sup>, Chunru Lin<sup>\*</sup>, Leng Han <sup>\*</sup>. Cell Reports. (2017).
+
+>Jing Gong <sup>†</sup>, Yajuan Li <sup>†</sup>, Chun-Jie Liu <sup>†</sup>, Yu Xiang <sup>†</sup>, Chunlai Li, Youqiong Ye, Zhao Zhang, David H. Hawke, Peter K. Park, Lixia Diao, John A. Putkey, Liuqing Yang, An-Yuan Guo <sup>\*</sup>, Chunru Lin<sup>\*</sup>, Leng Han <sup>\*</sup>. Cell Reports. (2017).
 
 # Introduction
 
